@@ -1,3 +1,9 @@
+/* 🌀 Add these Swiper imports FIRST */
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+/* Then keep your Tailwind and theme settings */
 @import "tailwindcss";
 
 :root {

@@ -1,3 +1,4 @@
+import BestSellers from "@/components/home/BestSellers";
 import CategoriesSection from "@/components/home/CategoriesSection";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import Herosection from "@/components/home/Herosection";
@@ -10,6 +11,7 @@ export default function Home() {
       <CategoriesSection/>
       <FeaturedProducts/>
       <PromoBanner/>
+      <BestSellers/>
     </main>
   );
 }
